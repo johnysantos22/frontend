@@ -68,3 +68,35 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+## Como instalar e rodar o projeto
+
+### Pré-requisitos
+
+- [Node.js](https://nodejs.org) (recomendo a versão LTS)  
+- [Git](https://git-scm.com) (opcional)
+
+---
+
+### Passo a passo
+
+1. Clone o repositório (se ainda não fez):
+
+```bash
+git clone https://github.com/CodeWorks-BR/Replica-site/tree/main
+
+Entre na pasta do frontend:
+cd frontend
+
+Instale as dependências:
+npm install
+
+Inicie o servidor de desenvolvimento:
+npm start
+
+A aplicação abrirá automaticamente no navegador em:
+http://localhost:3000
+
+Para rodar em outra porta:
+PORT=3001 npm start
